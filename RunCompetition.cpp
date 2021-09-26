@@ -7,7 +7,7 @@ using namespace std;
 /*
 In Competition constructors (both default and non-constructor),
 use srand(1);
-Sample output in online GDB.
+Sample output
 
   1 T        H                                                                                                                                                      
   2 T         H                                                                                                                                                     
