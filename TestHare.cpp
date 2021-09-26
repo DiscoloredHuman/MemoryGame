@@ -1,5 +1,4 @@
 #include "Hare.h"
-//File name: /Users/laptopuser/Documents/student_code/HareTortoise/TestHare.cpp
 #include <iostream>
 using namespace std;
 
