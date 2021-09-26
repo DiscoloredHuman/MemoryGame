@@ -26,7 +26,6 @@ MemoryGame::MemoryGame() //default constructor,
     srand(1); //TODO: add this before submitting to gradescope,
         //or autograde script cannot handle random input.
 
-    //TODO: your code here
     numPairs = 3;
     numSpaces = 2 * numPairs + 2;
 
