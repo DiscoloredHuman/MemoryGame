@@ -23,8 +23,7 @@ MemoryGame::MemoryGame() //default constructor,
     //Since running time differs,
     //the random sequence looks different
     //at different running time.
-    srand(1); //TODO: add this before submitting to gradescope,
-        //or autograde script cannot handle random input.
+    srand(1);
 
     numPairs = 3;
     numSpaces = 2 * numPairs + 2;
