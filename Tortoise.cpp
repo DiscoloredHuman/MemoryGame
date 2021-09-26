@@ -61,7 +61,6 @@ Tortoise::~Tortoise()
     pattern = 0; //set pattern to be nullptr
 }
 
-//TODO: implement other member functions of Hare class
 int Tortoise::getPosition() const
 {
     return position; 
