@@ -61,7 +61,6 @@ Hare::~Hare()
     pattern = 0; //set pattern to be nullptr
 }
 
-//TODO: implement other member functions of Hare class
 int Hare::getPosition() const
 {
     return position; 
