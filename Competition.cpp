@@ -6,9 +6,7 @@ using namespace std; //simplify std::cout by cout, or endl
 
 Competition::Competition() 
 {
-    srand(1); //submit to autograder,
-    //otherwise, the game may have different running results,
-    //which cannot be checked by scripts.
+    srand(1);
 
     //If test in local computer,
     //srand(time(0)); //need to include <ctime> to use time.
@@ -79,7 +77,7 @@ void Competition::start()
         else if (rabbit -> getPosition() > lastBlock)
             rabbit -> setPosition(lastBlock);
 
-        //TODO: Move tor.
+        //Move tor
         tor -> move();
         if (tor -> getPosition() < 0) {
             tor -> setPosition(0);
@@ -102,8 +100,7 @@ void Competition::start()
     }
 
 
-    //TODO: find out the result
-
+    //Find out the result
     if (rabbit->getPosition()==lastBlock && tor->getPosition()==lastBlock)
     {
         cout << "It is a tie." << endl;
