@@ -1,4 +1,4 @@
-//#pragma once  //simpler, but do not work in every c++ version
+//#pragma once  //simpler, but does not work in every c++ version
 #ifndef COMPETITION_H_
 #define COMPETITION_H_
 #include "Hare.h"
@@ -11,9 +11,7 @@ public:
     Competition();
     Competition(Hare* rabbit, Tortoise* tor, int length);
     ~Competition();
-    void start() ; //TODO: shall we put const after
-        //this method, that is, are we going to modify
-        //data members of current object?
+    void start() ;
 
 private:
     Hare* rabbit;
