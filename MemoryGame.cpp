@@ -9,7 +9,6 @@ int *randomize(int numSpaces); //function to randomize layout
 void swap(int *arr, int i, int j);
 void displaySeparateLine(int numSpaces);
 
-//TODO: implement by students
 MemoryGame::MemoryGame() //default constructor,
     //set numPairs = 3, numSpaces = 2 * numPairs + 2,
     //put 3 pairs of randomly generated ints in [0, 1000)
@@ -59,7 +58,6 @@ MemoryGame::MemoryGame() //default constructor,
     arr = nullptr;
 }
 
-//TODO: implement by students
 MemoryGame::~MemoryGame()
 {
     //When an object is no longer in need,
@@ -67,7 +65,6 @@ MemoryGame::~MemoryGame()
     //data members of the current object.
 }
 
-//TODO: implement by students
 //randomize is not a member function,
 //so there is no MemoryGame:: before function name randomize.
 //Return an array of randomly allocated 0, 1, .., size-1
@@ -102,7 +99,6 @@ int *randomize(int size)
     return arr;
 }
 
-//TODO: implement by students
 //int* arr means int array arr, which implies the address
 //of the first element of array arr.
 //swap arr[i] and arr[j] in array of ints arr.
@@ -130,7 +126,6 @@ void displaySeparateLine(int numSpaces)
     cout << endl;
 }
 
-//TODO: implement by students
 //display the items in values array where bShown is true.
 void MemoryGame::display(bool *bShown)
 {
@@ -163,7 +158,6 @@ void MemoryGame::display(bool *bShown)
     displaySeparateLine(numSpaces);
 }
 
-//TODO: implement by students
 //rules for a round
 //(1) pick a number, flip it
 //(2) pick a second number, if the number is the same as
