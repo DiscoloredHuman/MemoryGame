@@ -1,5 +1,3 @@
-//File name: /Users/laptopuser/Documents/courses/cs135/projects/memoryGame/MemoryGame.hpp
-
 //header file of C++ ends with .hpp
 //#ifndef … #define … #endif are called include guard.
 //They can make sure a header file will not be included 
